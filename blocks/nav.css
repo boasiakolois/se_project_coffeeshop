@@ -3,7 +3,7 @@
   justify-content: space-between;
 }
 
-nav__logo {
+.nav__logo {
   width: 105px;
   height: 39px;
   position: relative;
@@ -11,19 +11,21 @@ nav__logo {
 }
 
 .nav__link {
-  padding-left: auto;
+  margin-left: auto;
   display: flex;
   text-decoration: none;
   color: #000000;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  transition: opacity 0.3s ease;
 }
 
 .nav__link:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .nav__links {
